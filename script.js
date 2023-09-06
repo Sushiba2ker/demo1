@@ -8,7 +8,7 @@
   let dd = String(today.getDate()).padStart(2, "0");
   let mm = String(today.getMonth() + 1).padStart(2, "0");
   let yyyy = today.getFullYear();
-  const dayMonth = "10/02/";
+  const dayMonth = "9/30/";
   let birthday = dayMonth + yyyy;
 
   today = mm + "/" + dd + "/" + yyyy;
